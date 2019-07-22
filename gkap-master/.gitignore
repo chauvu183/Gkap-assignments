@@ -1,0 +1,8 @@
+bin/
+target/
+.settings/
+.idea/
+Thumbs.db
+*.iml
+GKAP.iml
+gkap.iml

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.HBox?>
+<TitledPane text="File " xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="de.haw_hamburg.gkap.ui.controller.FileTabController">
+	<VBox>
+		<HBox>
+			<Button fx:id="loadFile" text="load" />
+			<Button fx:id="saveFile" text="save" />
+		</HBox>
+		<TextArea fx:id="injectField" maxHeight="100" maxWidth="200"/>
+		<HBox>
+			<Button fx:id="injectButton" text="inject" />
+			<Button fx:id="printButton" text="print" />
+		</HBox>
+	</VBox>
+</TitledPane>

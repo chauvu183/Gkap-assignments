@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<TitledPane text="Algorithms " xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="de.haw_hamburg.gkap.ui.controller.AlgorithmTabController">
+	<VBox>
+		<HBox>
+			<Label text="s=" />
+			<TextField fx:id="bfsSource" maxWidth="50"/>
+			<Label text="t=" />
+			<TextField fx:id="bfsTarget" maxWidth="50"/>
+			<Button fx:id="bfsStart" text="BFS" />
+		</HBox>
+		<Button fx:id="primSpanningTree" text="Prim" />
+		<Button fx:id="primSpanningTreeNoAnimation" text="Prim No Visual" />
+		<Button fx:id="kruskal" text="Kruskal" />
+		<Button fx:id="fleury" text="Fleury" />
+		<Button fx:id="kruskalSpanningTreeNoAnimation" text="Kruskal No Visual" />
+		<Button fx:id="hierholzer" text="Hierholzer" />
+	</VBox>
+</TitledPane>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.VBox?>
+<TitledPane text="Settings" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="de.haw_hamburg.gkap.ui.controller.SettingsTabController">
+	<VBox>
+		<CheckBox fx:id="autoLayout" text="Auto Layout" />
+		<Button fx:id="clearGraph" text="Clear Graph" />
+		<Button fx:id="resetViewButton" text="Reset View" />
+		<Label text="Layout Force"/>
+		<Slider fx:id="layoutForce" max="2" value="1" showTickLabels="true" showTickMarks="true"/>
+		<Label text="Layout Quality"/>
+		<Slider fx:id="layoutQuality" min="1" max="4" value="3" blockIncrement="1" showTickLabels="true" showTickMarks="true"/>
+		<Label text="Layout Gravity"/>
+		<Slider fx:id="layoutGravity" min="-1" max="1" value="0" showTickLabels="true" showTickMarks="true"/>
+		<Label text="Layout Stabilization"/>
+		<Slider fx:id="layoutStabilization" value="0.9" max="1.1" showTickLabels="true" showTickMarks="true"/>
+	</VBox>
+</TitledPane>

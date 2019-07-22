@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<TitledPane text="Generator " xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="de.haw_hamburg.gkap.ui.controller.GeneratorTabController">
+	<VBox>
+        <VBox>
+            <HBox>
+                <CheckBox fx:id="directed" text="directed" />
+            </HBox>
+        </VBox>
+        <VBox>
+            <HBox>
+                <CheckBox fx:id="randomSeed" text="random seed" />
+            </HBox>
+        </VBox>
+        <VBox>
+            <HBox>
+                <CheckBox fx:id="eulerGraph" text="euler graph" />
+            </HBox>
+        </VBox>
+        <VBox>
+            <HBox>
+                <Label text="nodeCount" minWidth="140"/>
+                <TextField fx:id="nodeCount" text="3" maxWidth="50"/>
+            </HBox>
+        </VBox>
+        <VBox>
+            <HBox>
+                <Label text="edgeCount" minWidth="140"/>
+                <TextField fx:id="edgeCount" text="3" maxWidth="50"/>
+            </HBox>
+        </VBox>
+        <VBox>
+            <HBox>
+                <Label text="seed" minWidth="140"/>
+                <TextField fx:id="seed" text="12345" maxWidth="50" />
+            </HBox>
+        </VBox>
+		<VBox>
+			<HBox>
+                <Label text="max_weight_edges" minWidth="140"/>
+				<TextField fx:id="max_weight_edges" text="20" maxWidth="50"/>
+			</HBox>
+		</VBox>
+		<VBox>
+			<HBox>
+                <Label text="max_weight_nodes" minWidth="140"/>
+				<TextField fx:id="max_weight_nodes" text="20" maxWidth="50"/>
+			</HBox>
+		</VBox>
+		<Button fx:id="generate" text="Generate Graph" />
+	</VBox>
+</TitledPane>
