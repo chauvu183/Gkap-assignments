@@ -1,3 +1,7 @@
+DESCRIPTION
+ In this project my team at the university create a Platform, where we can visualize graph theory and algorithmus. 
+
+
 SETUP
 
 clone project via git:
